@@ -334,20 +334,22 @@ namespace App3
             Console.WriteLine("\nВ каждой строке был найден наибольший элемент и поменян местами с элементом главной диагонали.");
             for (int i = 0; i < sizeRowAndColumns; i++)
             {
-                int indexMaxElementRow = 0;
+               
+                int maxRowValue = arrayTask4[i, i];
+                 int indexMaxElementRow = i;
                 for (int j = 1; j < sizeRowAndColumns; j++)
                 {
                     if (arrayTask4[i, j] > arrayTask4[i, 0])
                     {
-                        arrayTask4[i, 0] = arrayTask4[i, j];
                         indexMaxElementRow = j;
-                        
+                        maxRowValue = arrayTask4[i, j];
                     }
                 }
 
                 // Смена максимального элемента с элементом из главной диагонали;
-                arrayTask4[i, i] = arrayTask4[i, 0];
-                arrayTask4[i, indexMaxElementRow] = arrayTask4[i, i];
+                int mainDiagonalElement = arrayTask4[i, i];
+                arrayTask4[i, i] = maxRowValue;
+                arrayTask4[i, indexMaxElementRow] = mainDiagonalElement;
             }
             
             Console.WriteLine("Полученный массив:");

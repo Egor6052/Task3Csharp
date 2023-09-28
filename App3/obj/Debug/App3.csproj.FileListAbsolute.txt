@@ -4,3 +4,9 @@
 /home/admin1/Рабочий стол/C# Project/App3/App3/obj/Debug/App3.csproj.CoreCompileInputs.cache
 /home/admin1/Рабочий стол/C# Project/App3/App3/obj/Debug/App3.exe
 /home/admin1/Рабочий стол/C# Project/App3/App3/obj/Debug/App3.pdb
+/home/admin1/Рабочий стол/Учеба/C#Projects/App3/App3/bin/Debug/App3.exe
+/home/admin1/Рабочий стол/Учеба/C#Projects/App3/App3/bin/Debug/App3.pdb
+/home/admin1/Рабочий стол/Учеба/C#Projects/App3/App3/obj/Debug/App3.csproj.AssemblyReference.cache
+/home/admin1/Рабочий стол/Учеба/C#Projects/App3/App3/obj/Debug/App3.csproj.CoreCompileInputs.cache
+/home/admin1/Рабочий стол/Учеба/C#Projects/App3/App3/obj/Debug/App3.exe
+/home/admin1/Рабочий стол/Учеба/C#Projects/App3/App3/obj/Debug/App3.pdb
